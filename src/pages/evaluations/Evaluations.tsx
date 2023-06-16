@@ -6,11 +6,17 @@ import Challenges from './components/Challenges'
 import TradingJourney from './components/TradingJourney'
 import CompetitiveSpreads from './components/CompetitiveSpreads'
 import OurNewsLetter from '../../components/OurNewsLetter'
+import { Helmet } from 'react-helmet'
+import Navbar from '../../components/Navbar'
 
 
 const Evaluations = () => {
   return (
     <div className='w-full overflow-x-hidden'>
+      <Helmet>
+        <title>OX Trade | Evaluations</title>
+      </Helmet>
+      <Navbar />
         <FundingsEvaluations />
         <CurrencySlideshow />
         <BenefitsFunding />

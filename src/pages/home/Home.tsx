@@ -12,12 +12,14 @@ import {Helmet} from "react-helmet"
 import Table from "./components/Table"
 import Faq from "../../components/FAQ"
 import Footer from "../../components/footer/Footer"
+import Navbar from "../../components/Navbar"
 const Home = () => {
 	return (
 		<div className="w-full overflow-x-hidden ">
 			<Helmet>
 				<title>Ox Trade | Home</title>
 			</Helmet>
+			<Navbar />
 			<Empower />
 			<CurrencySlideshow />
 			<AsFeatured />

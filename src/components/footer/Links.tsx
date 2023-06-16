@@ -6,7 +6,7 @@ export default function Quick() {
             <p><Link to="/about-us">About Us</Link></p>
             <p><Link to="/evaluations">Evaluations</Link></p>
             <p><Link to="/affiliates">Affiliates</Link></p>
-            <p><Link to="/faq">faq</Link></p>
+            <p><Link to="/faqs">faq</Link></p>
             <p><Link to="/contact">contact us</Link></p>
             <p><Link to="/client-area">client area</Link></p>
         </div>

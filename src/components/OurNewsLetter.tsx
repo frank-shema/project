@@ -5,11 +5,11 @@ const OurNewsLetter = () => {
                                 <p className="text-white font-bold text-[12px]  md:text-[16px] lg:text-[32px]">Subscribe to</p>
                                 <p className="text-white font-bold text-[16px]  md:text-[24px] lg:text-[48px]">Our Newsletter</p>
                                 <div className="flex flex-row gap-[10px]">
-                                        <div className="flex flex-row gap-1 bg-[] py-1 md:py-3 px-1 md:px-3 shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-full items-center border-[2px] border-white">
+                                        <div className="morphism flex flex-row gap-1 bg-[] py-1 md:py-3 px-1 md:px-3 shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-full items-center border-[2px] border-white">
                                                 <img src="/images/checkhover.png" alt="" className="w-[10%]" />
                                                 <p className="text-white font-bold text-[9px]  md:text-[14px]">Receive Exclusive Discounts</p>
                                         </div>
-                                        <div className="flex flex-row gap-1 bg-[] py-1 md:py-3 px-1 md:px-3 shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-full items-center border-[2px] border-white">
+                                        <div className="morphism flex flex-row gap-1 bg-[] py-1 md:py-3 px-1 md:px-3 shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-full items-center border-[2px] border-white">
                                                 <img src="/images/checkhover.png" alt="" className="w-[10%]" />
                                                 <p className="text-white font-bold text-[9px] md:text-[14px]">Receive Our Latest updates</p>
                                         </div>
@@ -19,10 +19,10 @@ const OurNewsLetter = () => {
                                         <button className="absolute top-[2px] right-1  lg:right-4 lg:top-4 bg-[#000AFF] text-white py-1.5 px-1.5 md:px-3 lg:px-6 rounded-lg text-xs md:text-sm lg:text-base">SUBSCRIBE</button>
                                 </div>
                         </div>
-                        <div className="shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-[21px] border-white border-[2px] text-center py-[61px]">
+                        <div className="morphism w-[40%] shadow-[0_4px_28px_rgba(2,92,255,0.19)] backdrop-blur-[21px] rounded-[21px] border-white border-[2px] text-center py-[61px]">
                                 <img src="/images/discord-text.png" alt="" className="mx-auto w-[50%] md:w-fit" />
                                 <p className="text-sm md:text-base lg:text-lg font-500 text-white">Contact Us! We are here for you 24/5</p>
-                                <p className="text-xs md:text-[18px] lg:text-[36px] font-bold text-white">Join Our Global Community For The Traders</p>
+                                <p className="text-xs md:text-[18px] lg:text-[36px] font-bold text-white my-4 mx-4">Join Our Global Community For The Traders</p>
                                 <button className="bg-white text-black py-[2.5px] md:py-[5px] lg:py-[11px] px-1 md:px-3 lg:px-6 rounded-[8px] text-xs md:text-sm lg:text-base">Join Our Discord</button>
                         </div>
                 </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
 						<Link to="/about-us" className="text-[10px] font-semibold  lg:text-sm">ABOUT US</Link>
 						<Link to="/evaluations" className="text-[10px] font-semibold  lg:text-sm">EVALUATIONS</Link>
 						<Link to="/affiliates" className="text-[10px] font-semibold  lg:text-sm">AFFILIATES</Link>
-						<Link to="" className="text-[10px] font-semibold  lg:text-sm">FAQ</Link>
+						<Link to="/faqs" className="text-[10px] font-semibold  lg:text-sm">FAQ</Link>
 						<Link to="/contact-us" className="text-[10px] font-semibold  lg:text-sm">CONTACT US</Link>
 						<Link to="" className="text-[10px] font-semibold  lg:text-sm">CLIENT AREA</Link>
 					</div>
@@ -30,7 +30,7 @@ const Navbar = () => {
 				<Link to="/about-us" className="text-[10px] font-semibold  lg:text-sm">ABOUT US</Link>
 				<Link to="/evaluations" className="text-[10px] font-semibold  lg:text-sm">EVALUATIONS</Link>
 				<Link to="/affiliates" className="text-[10px] font-semibold  lg:text-sm">AFFILIATES</Link>
-				<Link to="" className="text-[10px] font-semibold  lg:text-sm">FAQ</Link>
+				<Link to="/faqs" className="text-[10px] font-semibold  lg:text-sm">FAQ</Link>
 				<Link to="/contact-us" className="text-[10px] font-semibold  lg:text-sm">CONTACT US</Link>
 				<Link to="" className="text-[10px] font-semibold  lg:text-sm">CLIENT AREA</Link>
 			</div>

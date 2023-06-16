@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  *{
+    font-family: Poppins;
+  }
+  .privacy{
+    font-family: Poppins;
+  }

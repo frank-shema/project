@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ToJoin from './ToJoin'
 
 function Referring() {

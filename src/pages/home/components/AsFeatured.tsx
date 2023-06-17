@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import MarketWatch from '../../../assets/svg/MarketWatch'
 import TheWall from '../../../assets/svg/TheWall'
 import Bloomberg from '../../../assets/svg/Bloomberg'

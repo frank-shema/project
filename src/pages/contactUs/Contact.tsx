@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ContactUs from './components/ContactUs'
 import CurrencySlideshow from '../../components/CurrencySlideshow'
 import InTouch from './components/InTouch'

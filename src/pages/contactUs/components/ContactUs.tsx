@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 const ContactUs = () => {
         // const features = ["Bi-Weekly Payouts", "No Consistency Rules", "Scale Up-To $600,000", "Over 200 Symbols To Trade", "80% Profit Split", "Industry Leading Dashboard", "Unlimited Trading Days", "Low Spread & Commission"]

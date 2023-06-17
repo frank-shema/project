@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { BsDiscord, BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs"
 const InTouch = () => {
         return (

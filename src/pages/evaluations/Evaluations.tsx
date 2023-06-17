@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import FundingsEvaluations from './components/FundingsEvaluations'
 import CurrencySlideshow from '../../components/CurrencySlideshow'
 import BenefitsFunding from './components/BenefitsFunding'

@@ -34,8 +34,8 @@ function Referring() {
                                 </div>
                         </div>
                         <p className='mt-[25px] md:mt-[50px] lg:mt-[100px] text-[24px] md:text-[48px] lg:text-[96px] text-[#101828] font-bold'>How To Join</p>
-                        <div className='flex flex-row mx-5   gap-20 items-center justify-center '>
-                                <div className='w-[50%] md:w-[40%] lg:w-[30%] '>
+                        <div className='flex flex-col md:flex-row mx-5   gap-20 items-center justify-center '>
+                                <div className='w-full md:w-[40%] lg:w-[30%] '>
                                         <ToJoin body="Click the signup button and get started with creating an account!" label="Sign Up For Free" number={1}  />
                                         <ToJoin body="In your trader’s dashboard you will see a tab that says, “Affiliates” click on this to see your personal affiliate link." label="Go To Affiliates" number={2} />
                                         <ToJoin body="Our affiliate system is instant approval and you will be able to track in real-time your earnings and those who have paid via using your affiliate referral link!" label="Start Earning" number={3} />

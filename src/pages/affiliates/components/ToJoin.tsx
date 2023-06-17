@@ -71,13 +71,15 @@ const ToJoin: React.FC<ToJoinProps> = ({ body, label, number }) => {
         const logos = [LogoOne, LogoTwo, LogoThree]
         const svg = [One, Two, Three, Four]
         return (
-                <div className="w-[100%]  shadow-md relative p-2 md:p-3 lg:p-6 mt-5">
+                <div className="w-[100%] shadow-md bg-white relative p-2 md:p-3 lg:p-6 mt-5">
                         {svg[number - 1]()}
                         <div className="flex flex-row gap-6 items-center">
                                 {logos[number - 1]()}
-                                <p className="font-semibold text-[#101828] text-sm md:text-base">{label}</p>
+                                <div className="flex-col text-left justify-start flex">
+                                        <p className="font-semibold text-[#101828] text-sm md:text-base">{label}</p>
+                                        <p className="text-[#101828] text-[9px] md:text-[12px] ">{body}</p>
+                                </div>
                         </div>
-                        <p className="text-[#101828] text-[9px] md:text-[12px] ">{body}</p>
                 </div>
         )
 }

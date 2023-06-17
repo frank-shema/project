@@ -2,7 +2,7 @@ import clsx from 'clsx'
 // import React from 'react'
 import Marquee from 'react-fast-marquee'
 
-const JourneySlideshow = ({num}:{num:number}) => {
+const JourneySlideshow = () => {
              
             
         const words=[

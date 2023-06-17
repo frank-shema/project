@@ -1,10 +1,9 @@
 import OurNewsLetter from '../../components/OurNewsLetter'
 import AboutPage from './components/AboutPage'
-import Footer from '../../components/footer/Footer'
 import CurrencySlideshow from '../../components/CurrencySlideshow'
 import OurStory from './components/OurStory'
 import { Helmet } from 'react-helmet'
-import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 
 const About = () => {
   return (
@@ -12,7 +11,6 @@ const About = () => {
       <Helmet>
         <title>Ox Trade | About</title>
       </Helmet>
-      <Navbar />
       <AboutPage />
       <CurrencySlideshow />
       <OurStory />

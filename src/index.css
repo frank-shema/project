@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: Intel;
-  src: url('/font/Inter-VariableFont_slnt,wght.ttf');
+  src: url("/font/Inter-VariableFont_slnt,wght.ttf");
 }
 
 @font-face {
   font-family: IntelBold;
-  src: url('/Inter/static/Inter-Bold.ttf');
+  src: url("/Inter/static/Inter-Bold.ttf");
 }
 
 * {
@@ -17,7 +17,7 @@
 }
 
 .bg-gradient {
-  background: linear-gradient(90deg, #233c68 0%, #0057ff 46.35%, #3af2ff 100%);
+  background: linear-gradient(90deg, #233C68 0%, #0057FF 46.35%, #3AF2FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -28,21 +28,34 @@
   animation: slider 100s ease-in-out infinite alternate;
 }
 
-.blur-edges {
-  /* -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
-  /* -webkit-mask-image: radial-gradient(circle at top left, transparent 50%, rgba(0, 0, 0, 1) 70%);
-  mask-image: radial-gradient(circle at top left, transparent 50%, rgba(0, 0, 0, 1) 70%); */
-  /* -webkit-mask-image: radial-gradient(circle closest-side at 0% 0%, transparent, rgba(0, 0, 0, 1));
-  mask-image: radial-gradient(circle closest-side at 0% 0%, transparent, rgba(0, 0, 0, 1)); */
-  -webkit-mask-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 1),
-      transparent 50%
-    ),
-    linear-gradient(to top, rgba(0, 0, 0, 1), transparent 50%);
-  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), transparent 50%),
-    linear-gradient(to top, rgba(0, 0, 0, 1), transparent 50%);
+.blurred-image {
+  background-image: url('/public/images/affiliates.png');
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* box-shadow: 0 0 80px 80px white inset; */
+  box-shadow: 200px 200px 200px 0 #F2F4F7 inset;
+}
+
+.blurred-image2 {
+  background-image: url('/public/images/about.png');
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* box-shadow: 0 0 80px 80px white inset; */
+  box-shadow: 200px 200px 200px 0 #F2F4F7 inset;
+}
+
+.blurred-image3 {
+  background-image: url('/public/images/contact-us.png');
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* box-shadow: 0 0 80px 80px white inset; */
+  box-shadow: 200px 200px 200px 0 #F2F4F7 inset;
 }
 
 @keyframes slider {
@@ -65,6 +78,7 @@ body,
 footer {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
 }
+
 .first {
   display: flex;
   flex-direction: column;
@@ -72,30 +86,46 @@ footer {
   padding: 24px;
   gap: 40px;
 }
+
 .input {
   border-radius: 24px;
   box-shadow: 0px 4px 28px rgba(2, 92, 255, 0.19);
 }
 
 .morphism {
-  background: radial-gradient(
-    100% 2558.19% at 0% 50%,
-    rgba(255, 255, 255, 0.4) 0%,
-    rgba(255, 255, 255, 0.14) 100%
-  );
-  border: 2px solid #ffffff;
+  background: radial-gradient(100% 2558.19% at 0% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.14) 100%);
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 4px 28px rgba(2, 92, 255, 0.19);
+  backdrop-filter: blur(21px);
+  border-radius: 21px;
 }
 
 .about-person-card {
-  background: radial-gradient(
-    100% 2558.19% at 0% 50%,
-    rgba(100, 235, 243, 0.4) 0%,
-    rgba(0, 163, 255, 0.62) 100%
-  );
-  border: 2px solid #ffffff;
+  background: radial-gradient(100% 2558.19% at 0% 50%, rgba(100, 235, 243, 0.4) 0%, rgba(0, 163, 255, 0.62) 100%);
+  border: 2px solid #FFFFFF;
   box-shadow: 0px 4px 28px 4px rgba(2, 92, 255, 0.19);
   backdrop-filter: blur(21px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 27px;
+}
+
+.empower{
+  background-image: url("/images/empower.png");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
+.about{
+  background-image: url("/images/aboutbg.png");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+.contact{
+  background-image: url("/images/contactusbg.png");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+.affiliates{
+  background-image: url("/images/affiliatesbg.png");
+  background-repeat: no-repeat;
+  background-size:cover ;
 }

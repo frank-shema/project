@@ -1,7 +1,7 @@
 
 const Bloomberg = () => {
         return (
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="243px" height="49px" viewBox="0 0 243.000000 49.000000" preserveAspectRatio="xMidYMid meet">
+                <svg className="w-[30%]" xmlns="http://www.w3.org/2000/svg" version="1.0" width="243px" height="49px" viewBox="0 0 243.000000 49.000000" preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,49.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                                 <path d="M310 305 l0 -185 30 0 30 0 0 185 0 185 -30 0 -30 0 0 -185z" />
                                 <path d="M1430 305 l0 -185 30 0 c20 0 30 5 30 16 0 14 2 14 22 0 12 -9 42 -16 66 -16 37 0 50 6 78 34 31 31 34 40 34 91 0 51 -3 60 -34 91 -28 28 -42 34 -75 34 -23 0 -53 -7 -66 -16 l-25 -16 0 76 0 76 -30 0 -30 0 0 -185z m174 -6 c50 -40 23 -129 -39 -129 -33 0 -75 42 -75 75 0 30 41 75 68 75 11 0 31 -9 46 -21z" />

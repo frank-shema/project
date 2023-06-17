@@ -1,10 +1,15 @@
-import AnotherFooter from '../another/footer'
-import '../another/index.css'
-export default function Privacy() {
+import { Helmet } from 'react-helmet'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
+
+const PrivacyPolicy = () => {
   return (
     <div>
-      <div className="privacy flex flex-col gap-[6vh] px-[15vw] py-[10vh] text-[14px] text-textColor sm:px-[2vw] sm:py-[3vh] md:py-[7vh] md:px-[10vw]">
-        <div className="text-black text-[20px] font-[700]">
+      <Helmet>
+        <title>OX Trade | Privacy Policy</title>
+      </Helmet>
+      <div className="privacy  flex flex-col gap-[6vh]  px-[1vw] md:px-[5vw] lg:px-[10vw] pt-14 md:pt-20 lg:py-[10vh]  text-[14px] text-textColor">
+        <div className="text-black text-[20px] font-[900]">
           <h1>Privacy Policy</h1>
         </div>
 
@@ -17,7 +22,7 @@ export default function Privacy() {
         </div>
 
         <div>
-          <p>To provide you with better products and services, The FFrt. Srl may collect <span className='text-seco font-[700]'>personally identifiable</span> information such as your <span className='text-seco font-[700]'>first and last name, mailing address, email address, phone number, and ID or passport photo for KYC</span>. If you purchase products or services from Ox Trade Funding, we may collect billing and credit card information to complete the transaction. We do not collect any personal information about you unless you voluntarily provide it. However, you may be required to provide certain personal information when using certain products or services, such as registering for an account, entering a sweepstake, signing up for special offers from third parties, sending us an email, or submitting payment information. We will use your information to communicate with you regarding requested products or services, and may gather additional personal or non-personal information in the future.</p>
+          <p>To provide you with better products and services, The FFrt. Srl may collect <span className='text-seco font-[900]'>personally identifiable</span> information such as your <span className='text-seco font-[900]'>first and last name, mailing address, email address, phone number, and ID or passport photo for KYC</span>. If you purchase products or services from Ox Trade Funding, we may collect billing and credit card information to complete the transaction. We do not collect any personal information about you unless you voluntarily provide it. However, you may be required to provide certain personal information when using certain products or services, such as registering for an account, entering a sweepstake, signing up for special offers from third parties, sending us an email, or submitting payment information. We will use your information to communicate with you regarding requested products or services, and may gather additional personal or non-personal information in the future.</p>
         </div>
 
         <div>
@@ -29,7 +34,7 @@ export default function Privacy() {
         </div>
 
         <div>
-          <p>The FFrt. Srl <span className='text-seco font-[700]'> may track user behavior to determine which services are most popular and deliver</span> customized content and advertising within Ox Trade Funding to customers whose behavior indicates their interest in a particular subject area.</p>
+          <p>The FFrt. Srl <span className='text-seco font-[900]'> may track user behavior to determine which services are most popular and deliver</span> customized content and advertising within Ox Trade Funding to customers whose behavior indicates their interest in a particular subject area.</p>
         </div>
 
         <div>
@@ -39,7 +44,7 @@ export default function Privacy() {
         <div className='flex flex-col gap-[20px]'>
           <p className='text-heads font-bold text-base uppercase'>Links</p>
           <p>Please be aware that other sites linked from this website are not under the responsibility of The FFrt. Srl, also known as Ox Trade Funding, a company located in Romania, and we are not responsible for the content or privacy practices of those sites. We encourage our users to be aware of this and to read the privacy statements of any other site that collects personally identifiable information.</p>
-          <p className='text-seco font-[700]'>Right to Deletion:</p>
+          <p className='text-seco font-[900]'>Right to Deletion:</p>
           <p>Subject to certain exceptions set out below, upon receiving a verifiable request from you, we will delete your personal information from our records and direct any service providers to delete your personal information from their records.</p>
           <p>However, we may not be able to comply with requests to delete your personal information if it is necessary to:</p>
 
@@ -84,38 +89,37 @@ export default function Privacy() {
         <div>
           <p className='text-heads font-bold text-base uppercase'>Collecting Information of Minors:</p>
           <p>
-            The FFrt. Srl, also known as Ox Trade Funding, a company located in Romania, <span className='text-seco font-[700]'>does not knowingly collect personally identifiable information from anyone under the age of 18</span>. You must be 18 years of age or older to sign up at Ox Trade Funding.
+            The FFrt. Srl, also known as Ox Trade Funding, a company located in Romania, <span className='text-seco font-[900]'>does not knowingly collect personally identifiable information from anyone under the age of 18</span>. You must be 18 years of age or older to sign up at Ox Trade Funding.
           </p>
         </div>
 
         <div>
           <p className='text-heads font-bold text-base uppercase'>E-mail Communications:</p>
-          <p>From time to time, <span className='text-seco font-[700]'>The FFrt. Srl, also known as Ox Trade Funding, may contact you via email</span> for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication.
+          <p>From time to time, <span className='text-seco font-[900]'>The FFrt. Srl, also known as Ox Trade Funding, may contact you via email</span> for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication.
 
             If you would like to stop receiving marketing or promotional communications via email from The FFrt. Srl, also known as Ox Trade Funding, you may opt out of such communications by responding to any of our emails with "Unsubscribe".</p>
         </div>
 
         <div>
           <p className='text-heads font-bold text-base uppercase'>External Data Storage Sites</p>
-          <p>We may store <span className='text-seco font-[700]'>your data on servers provided by third-party hosting vendors</span> with whom we have contracted.</p>
+          <p>We may store <span className='text-seco font-[900]'>your data on servers provided by third-party hosting vendors</span> with whom we have contracted.</p>
         </div>
 
         <div>
           <p className='text-heads font-bold text-base uppercase'>
             Changes to this Statement
           </p>
-          <p>Ox Trade Funding reserves the right to modify this Privacy Policy at any time. <span className='text-seco font-[700]'>We will inform you of significant changes in the way we handle personal information by sending a notice to the primary email address provided in your account, by placing a prominent notice on our website or updating any private information.</span> Your continued use of the website and/or services after such modifications implies your acknowledgment of the revised Privacy Policy and your agreement to comply with it.</p>
+          <p>Ox Trade Funding reserves the right to modify this Privacy Policy at any time. <span className='text-seco font-[900]'>We will inform you of significant changes in the way we handle personal information by sending a notice to the primary email address provided in your account, by placing a prominent notice on our website or updating any private information.</span> Your continued use of the website and/or services after such modifications implies your acknowledgment of the revised Privacy Policy and your agreement to comply with it.</p>
         </div>
 
         <div>
           <p className='text-heads font-bold text-base uppercase'>Contact Information</p>
           <p>Ox Trade Funding welcomes your inquiries and comments regarding this Statement of Privacy. If you believe that Ox Trade Funding has failed to adhere to this Statement, please contact Ox Trade Funding at <a href="" className='cursor-pointer text-blue-300 hover:underline'>support@oxtradefunding.com.</a></p>
         </div>
-
       </div>
-
-      <AnotherFooter />
+      <Footer />
     </div>
-
   )
 }
+
+export default PrivacyPolicy

@@ -1,24 +1,21 @@
-// import React from 'react'
 import ContactUs from './components/ContactUs'
 import CurrencySlideshow from '../../components/CurrencySlideshow'
 import InTouch from './components/InTouch'
 import OurNewsLetter from '../../components/OurNewsLetter'
-import Footer from '../../components/footer/Footer'
 import { Helmet } from 'react-helmet'
-import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 
 const Contact = () => {
   return (
     <div className='w-full overflow-x-hidden'>
       <Helmet>
-        <title>Ox Trade | Contact</title>
+        <title>OX Trade | Contact</title>
       </Helmet>
-      <Navbar />
         <ContactUs />
         <CurrencySlideshow />
         <InTouch />
         <OurNewsLetter />
-        <div className='w-full h-10 bg-white' />
+        <div className='h-10 bg-white w-full'></div>
         <Footer />
     </div>
   )

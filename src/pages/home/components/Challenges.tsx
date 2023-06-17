@@ -9,7 +9,7 @@ const Challenges = () => {
                 return (
                         <div className="shadow-[-5px_0_#0A71FF] md:shadow-{-10px_0_#0A71FF} bg-white flex flex-row  items-center gap-[5%] w-[30%] px-[2%] py-[1px] md:py-3  rounded-[48px] ">
                                 <img src="/images/checkbox.png" alt="" className='h-5 ' />
-                                <p className='text-[9px] md:text-base h-fit'>{body}</p>
+                                <p className='text-[9px] md:text-[12px] lg:text-base h-fit'>{body}</p>
                         </div>
                 )
         }

@@ -1,6 +1,6 @@
 const TheWall = () => {
         return (
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="447.000000px" height="38.000000pt" viewBox="0 0 447.000000 38.000000" preserveAspectRatio="xMidYMid meet">
+                <svg className="w-[30%]" xmlns="http://www.w3.org/2000/svg" version="1.0" width="447.000000px" height="38.000000pt" viewBox="0 0 447.000000 38.000000" preserveAspectRatio="xMidYMid meet">
 
                         <g transform="translate(0.000000,38.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                                 <path d="M1 318 l1 -63 11 41 c12 43 33 74 48 74 15 0 11 -347 -3 -353 -7 -3 11 -6 40 -6 49 -1 52 0 38 15 -13 13 -16 43 -16 174 0 168 7 193 42 150 10 -12 18 -33 18 -46 0 -12 5 -26 11 -29 7 -5 9 11 7 47 l-3 53 -97 3 -98 3 1 -63z" />

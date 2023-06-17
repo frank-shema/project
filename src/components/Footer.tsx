@@ -1,5 +1,5 @@
 import group from "../assets/Group 625878.svg"
-import media from "../assets/Group 241 1.svg"
+// import media from "../assets/Group 241 1.svg"
 import Quick from "./Links"
 import OtherLinks from "./adit"
 

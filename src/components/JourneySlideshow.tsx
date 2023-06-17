@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import React from 'react'
+// import React from 'react'
 import Marquee from 'react-fast-marquee'
 
 const JourneySlideshow = ({num}:{num:number}) => {
@@ -46,19 +46,7 @@ const JourneySlideshow = ({num}:{num:number}) => {
                                 }>{word.body}</p>
                         })}
                 </Marquee>
-                // <div className={`relative -left-${num} flex flex-row gap-2 overflow-hidden  py-1  text-sm max-h-6 my-2`}>
-                //         {words.map((word) => {
-                //                 return  <p className={clsx(`
-                //                         max-h-5 
-                //                         font-bold
-                //                         text-[12px]
-                //                         md:text-[18px]
-                //                         lg:text-[36px]
-                //                         min-w-fit`,
-                //                         word.color === 0 ? "text-[#306FF5]" : "text-[#101828]")
-                //                 }>{word.body}</p>
-                //         })}
-                // </div>
+              
         )
 }
 

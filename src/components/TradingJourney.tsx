@@ -1,6 +1,5 @@
 
 import Marquee from "react-fast-marquee"
-import JourneySlideshow from "./JourneySlideshow"
 import TradingFeatures from "./TradingFeatures"
 import clsx from "clsx"
 

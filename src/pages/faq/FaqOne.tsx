@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { BiSearch } from "react-icons/bi"
 import OneFaq from './components/OneFaq'
 import { Helmet } from 'react-helmet'

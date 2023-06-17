@@ -1,5 +1,5 @@
-import React from 'react'
-import { BsDiscord, BsInstagram, BsTwitter, BsFacebook, Bs1Circle } from "react-icons/bs"
+// import React from 'react'
+import { BsDiscord, BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs"
 const InTouch = () => {
         return (
                 <div className='text-center pt-[12px] md:pt-[25px] lg:pt-[50px]'>

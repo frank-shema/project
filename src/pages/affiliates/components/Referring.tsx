@@ -1,6 +1,5 @@
-import React from 'react'
+// import React from 'react'
 import ToJoin from './ToJoin'
-import LogoTBody from '../../../components/TradingFeatures'
 
 function Referring() {
         return (

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Footer from '../../components/Footer'
 
 const TermsService = () => {
@@ -8,7 +8,7 @@ const TermsService = () => {
 				<div className='text-black text-[20px] font-[900]'>
 					<h1>Terms and Use</h1>
 				</div>
-
+{/*  */}
 				<div className='flex flex-col gap-2'>
 					<p className='text-heads font-bold text-base uppercase ml-10'>General Terms and Conditions</p>
 					<p><span className='text-seco font-[900]'>These General Terms and Conditions (the "GTC") outline the rights and obligations of using the services provided by The FFrt. Srl</span>, also known as Ox Trade Funding, a company located in Romania, offered primarily through the website <a href="" className='cursor-pointer text-blue-300 hover:underline'>www.oxtradefunding.com</a> (the "Website"). Please carefully read these GTC as they govern your use of the services. You are not obligated to use the services if you do not agree with or comprehend any of the provisions within the GTC. Furthermore, you should not use the services unless you fully understand and accept these terms.</p>

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import FundingsEvaluations from './components/FundingsEvaluations'
 import CurrencySlideshow from '../../components/CurrencySlideshow'
 import BenefitsFunding from './components/BenefitsFunding'
@@ -8,7 +8,6 @@ import { Helmet } from 'react-helmet'
 import TradingJourney from '../../components/TradingJourney'
 import Faq from '../../components/FAQ'
 import CompetitiveSpreads from '../../components/CompetitiveSpreads'
-import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 
 

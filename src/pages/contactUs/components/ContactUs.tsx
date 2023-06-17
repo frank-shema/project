@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 const ContactUs = () => {
         return (
                 <div className="relative w-[100vw] bg-[#F2F4F7] px-5 md:px-20 lg:px-40 pb-20 contact">

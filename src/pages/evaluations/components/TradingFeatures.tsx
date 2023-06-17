@@ -5,7 +5,7 @@ interface TradingFeaturesProps {
         number: number
 }
 
-const TradingFeatures: React.FC<TradingFeaturesProps> = ({ body, label, number }) => {
+const TradingFeatures: React.FC<TradingFeaturesProps> = ({ body, label }) => {
         return (
                 <div className="w-[50%] md:w-[35%] lg:w-[30%] shadow-md relative p-6">
                         <svg className="absolute right-0 w-[40%] h-[100%]" xmlns="http://www.w3.org/2000/svg" width="86" height="172" viewBox="0 0 86 172" fill="none">

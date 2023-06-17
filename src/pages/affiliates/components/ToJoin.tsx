@@ -5,7 +5,7 @@ interface ToJoinProps {
         number: number
 }
 
-const ToJoin: React.FC<ToJoinProps> = ({ body, label, number }) => {
+const ToJoin: React.FC<ToJoinProps> = ({ body, label }) => {
         return (
                 <div className="w-[100%]  shadow-md relative p-6 mt-5">
                         <svg className="absolute right-0 top-0 h-[100%]" xmlns="http://www.w3.org/2000/svg" width="86" height="172" viewBox="0 0 86 172" fill="none">

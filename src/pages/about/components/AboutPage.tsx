@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutPage = () => {
-    const features = ["Bi-Weekly Payouts", "No Consistency Rules", "Scale Up-To $600,000", "Over 200 Symbols To Trade", "80% Profit Split", "Industry Leading Dashboard", "Unlimited Trading Days", "Low Spread & Commission"]
+    // const features  = ["Bi-Weekly Payouts", "No Consistency Rules", "Scale Up-To $600,000", "Over 200 Symbols To Trade", "80% Profit Split", "Industry Leading Dashboard", "Unlimited Trading Days", "Low Spread & Commission"]
     return (
         <div className="relative h-[110vh]  w-[100vw] bg-[#F2F4F7] px-5 md:px-20 lg:px-40 pb-20">
             <img src="/images/about.png" alt="" className="absolute right-0 bottom-0 shadow-[inset_20px_20px_20px_rgba(255,255,255,1)]  blur-edges" />

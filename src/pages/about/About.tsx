@@ -1,4 +1,3 @@
-import React from 'react'
 import OurNewsLetter from '../../components/OurNewsLetter'
 import AboutPage from './components/AboutPage'
 import Footer from '../../components/footer/Footer'
